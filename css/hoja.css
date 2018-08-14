@@ -1,0 +1,212 @@
+/*Css de todos los div e imagenes */
+
+main{
+    position: relative;
+    
+}
+
+.img-perro
+{
+width: 1200px;
+position:relative ;
+left: 400px;
+background:#6dccaa;
+}
+.div-one{
+    width: 100%;
+    clear:both;
+    
+}
+
+.div-portada{
+    width: 100%;
+    height: 600px;
+    background: #6dccaa;
+    margin-top: -550px;
+
+}
+@media screen and (max-width:1080px){
+    .div-portada{
+        background-size: 900px;
+        margin-top: -275px;
+    }
+}
+
+.div-piePagina img
+{
+display: flex;
+float: right;
+}
+.img-face 
+{
+    width: 45px;
+    height: 45px;
+    position:relative ;
+    right: 400px;
+    top: 500px;
+}
+
+.img-google
+{
+    width: 45px;
+    height: 45px;
+    position:relative ;
+    right: 250px;
+    top: 500px;
+}
+
+.img-insta
+{
+    width: 45px;
+    height: 45px;
+    position:relative ;
+    right: 240px;
+    top: 500px;
+}
+
+.img-correo
+{
+    width: 45px;
+    height: 45px;
+    position:relative ;
+    right: 90px;
+    top: 500px;
+}
+
+
+.txt1{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.txt2{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+    margin-left: 50px ;
+    margin-top: -50px;
+}
+
+
+.div-fondo 
+{
+background: white;
+width: 100%;
+height: 600px;
+
+}
+
+.div-imagen
+{
+    width: 49%;
+    height: 400px;
+    background: white ;
+    float: left
+}
+
+
+.div-comida
+{
+    width: 50%;
+    height: 555px;
+    background: white(89, 0, 255) ;
+  
+float: right;
+
+
+}
+
+.div-rescate
+{
+margin-left: 62%;
+margin-top:3%
+
+}
+
+.txt-etapa2
+{
+  text-align: right; 
+}
+
+.div-text 
+{
+  
+    text-align: right; 
+}
+
+.div-textol
+{
+    font-size: 90%;
+    font-weight: normal;
+    text-align: right; 
+    margin-top: 3%;
+    color: gray;
+    font-family: 'Franklin Gothic Medium';
+    
+
+}
+
+.div-textol2
+{
+    font-size: 90%;
+    font-weight: normal; 
+    margin-top: 3%;
+    color: gray;
+    font-family: 'Franklin Gothic Medium';
+    
+
+}
+.img-comida 
+{
+    margin-top: 1%
+}
+
+.div-boton
+{
+    margin-top: 3%;  
+    height: 80px;
+}
+
+.boton_1{
+    
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: initial;
+    color: #050505;
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: 2px double #000000;
+   
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+@media screen and (max-width:1300px)
+{
+ 
+    .img-perro
+    {
+    width: 500px;
+    position:relative ;
+    right: -400px;
+    background:#7fc2af;
+  
+    }
+
+
+
+
+}
